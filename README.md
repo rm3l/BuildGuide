@@ -74,18 +74,18 @@ Open up your file browser and navigate to the device folder at the root of your 
 2. Open havoc.mk and replace all instances of "lineage" with "havoc" as shown in the examples below:
 
 ###### Example for 1st change in lineage.mk
-"PRODUCT_NAME := lineage_angler" 
+PRODUCT_NAME := lineage_angler
 
 get's changed to 
 
-"PRODUCT_NAME := havoc_angler"
+PRODUCT_NAME := havoc_angler
 
 ###### Example for 2nd change in lineage.mk
-"$(call inherit-product, vendor/lineage/config/common_full_phone.mk)" 
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk) 
 
 gets changed to
 
-"$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 ###### Note: Some ROMs may have vendor/havoc/common.mk)" or vendor/havoc/config/common.mk)" instead of the normal usage so always check to see what extra modifications you need to add to havoc.mk. Also, do not change things like aosp_angler.mk. In Havoc's case, the original changes were only needed.
 
