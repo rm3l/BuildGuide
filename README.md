@@ -36,7 +36,7 @@ To do this we must go to the Github of our ROM Source and locate the platform ma
 ```
 repo init -u https://github.com/Havoc-OS/android_manifest.git -b oreo
 ```
-Before running the repo init command, you'll want to make a directory where the source will be stored. I will be using Havoc-OS as an example.
+Before running the repo init command, you'll want to make a directory where the source will be stored.
 ```
 mkdir -p ~/havoc
 cd ~/havoc
