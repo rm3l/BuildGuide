@@ -64,7 +64,7 @@ Note: this will take a while and consume a lot of bandwith.
 ```
 repo sync  -f --force-sync --no-clone-bundle
 ```
-If repo-sync exits due to fetch errors than run the mentioned repo sync cmd again as -f will fix the broken source.
+If repo-sync exits due to fetch errors then run the mentioned repo sync cmd again as -f will fix the broken source.
 
 ### Modifying the device tree to build with your ROMS source
 Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacturer/codename folder. They'll be 2 files that you'll need to edit here. I'll be using havoc as my ROM and angler as my device:
