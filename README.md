@@ -87,7 +87,7 @@ gets changed to
 
 "$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
 
-###### Note: Some ROMs may have vendor/havoc/common.mk)" or vendor/havoc/config/common.mk)" instead of the normal usage so always check to see what extra modifications you need to add to havoc.mk. Also, do not change things like aosp_angler.mk. In Havoc's case, the original changes were only needed.
+###### Note: Some ROMs may have vendor/havoc/common.mk)" or vendor/havoc/config/common.mk)" instead of the normal usage so always check to see what extra modifications you need to add to havoc.mk. Also, do not change things like aosp_angler.mk. In Havoc's case, only the original changes were needed.
 
 
 ### Optional fixes for low-end pc's
