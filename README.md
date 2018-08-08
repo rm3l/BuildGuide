@@ -92,7 +92,7 @@ gets changed to
 
 ### Optional fixes for low-end pc's
 
-Before I go any further, I'd like to introduce some common fixes for build/core on low end hardware. Just downloaded the droidoc.mk and deffinitions.mk from this git rep and replace the ones in your local havoc/build/core with them.
+Before I go any further, I'd like to introduce some common fixes for build/core on low end hardware. Just download the droidoc.mk and deffinitions.mk from this git repo and replace the ones in your local havoc/build/core with them.
 
 Another common error is the jack-server running out of memory, causing constant hangs and even non responsivness. An easy fix for this is setting jack-server to allocate a sufficent ammount of RAM.
 ```
