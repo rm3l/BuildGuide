@@ -65,18 +65,22 @@ Then, using your keyboard, hit ctrl-x and then the letter "Y" so that it saves. 
 gedit local_manifest.xml
 ```
 Now use Lineage-OS & TheMuppets Github as refrence to edit the files to represent your device codname, kernel name, and vendor name. After you're done doing so, crate a local_manifests folder in Havoc-OS/.repo and move local_manifest.xml into it.
-### 
-Syncing the Source!
+### Syncing the Source!
 Note: this will take a while and consume a lot of bandwith
 ```
 repo sync  -f --force-sync --no-clone-bundle
 ```
-You'll know when it's about to be done when you see "syncing work tree" in the terminal output.
+If repo-sync exits due to fetch errors at some point then run the mentioned repo sync cmd again as -f will fix broken source
 
-If repo exits due to fetch errors the run the repo sync cmd again as -f will fix broken source
+## Modifying the device tree to build with you ROMS source
+Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacture/codename folder. There will be 2 files that you need edit here.
 
-## Time to build! Well, Almost :P
-First we need to Modify the Device Tree so that it can be picked up by build system.
+1. Rename lineage.dependencies to havoc.dependencies
+
+2. Open lineage.mk and replace all instances of "lineage" with "havoc"
+
+#Example
+
 
 # wip, time for sleep..
 Not done yet, I'm going to sleep lol
