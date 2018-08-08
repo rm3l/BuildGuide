@@ -60,7 +60,7 @@ Copy this example into gedit
 <manifest><project path="device/huawei/angler" name="AnierinBliss/android_device_huawei_angler" remote="github" revision="lineage-15.1"/><project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1"/><project path="kernel/huawei/angler" name="LineageOS/android_kernel_huawei_angler" remote="github" revision="lineage-15.1"/></manifest>
 ```
 
-Now use Lineage-OS & TheMuppets Github as refrence to edit the local_manifest to represent your device codname, kernel name, and vendor name. After you're done doing so, save it. Create a local_manifests folder in Havoc-OS/.repo and move local_manifest.xml there.
+Now use Lineage-OS & TheMuppets Github as a refrence to edit local_manifest.xml to represent your device codname, kernel name, and vendor name. After you're done doing so, save it in Havoc-OS/.repo/local_manifests folder. If that folder isn't there, create it.
 
 ### Syncing the Source!
 Note: this will take a while and consume a lot of bandwith
