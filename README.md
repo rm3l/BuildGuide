@@ -87,7 +87,7 @@ gets changed to
 
 "$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
 
-###### Note: Some ROMs may have vendor/havoc/common.mk)" or vendor/havoc/config/common.mk)" instead of the normal usage so always check to see what extra modifications you need to add to havoc.mk
+###### Note: Some ROMs may have vendor/havoc/common.mk)" or vendor/havoc/config/common.mk)" instead of the normal usage so always check to see what extra modifications you need to add to havoc.mk. In Havoc's case, the normal usage is present.
 
 
 
