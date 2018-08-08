@@ -45,7 +45,7 @@ Now you can initialize repo.
 
 ### Device Specific Code
 
-There are three things that you'll need for this proccess:
+There are three things that you'll need:
 1. device tree
 2. kernel source
 3. Vendor source
