@@ -110,9 +110,9 @@ export OUT_DIR_COMMON_BASE=/media/username/drivename
 ```
 
 Replace angler with your devices codename:
-###### Note: The usage can be slightly different for every ROM. Check with your ROMs platform_manifest on Github.
 ```
 . build/envsetup.sh
 brunch angler
 ```
+###### Note: The usage can be slightly different for every ROM. Check with your ROMs platform_manifest on Github.
 
