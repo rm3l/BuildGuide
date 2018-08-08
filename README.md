@@ -60,7 +60,9 @@ Copy this example into the terminal window:
 ```
 <manifest><project path="device/huawei/angler" name="AnierinBliss/android_device_huawei_angler" remote="github" revision="lineage-15.1"/><project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1"/><project path="kernel/huawei/angler" name="LineageOS/android_kernel_huawei_angler" remote="github" revision="lineage-15.1"/></manifest>
 ```
-Then, using your keyboard, hit ctrl-x and then the letter "Y" so that it saves. Run this so that you can edit the manifest with ease:
+Then, using your keyboard, hit ctrl-x and then the letter "Y" so that it saves. 
+
+Run this so that you can edit the manifest with ease:
 ```
 gedit local_manifest.xml
 ```
