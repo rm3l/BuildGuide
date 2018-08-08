@@ -75,7 +75,9 @@ You'll know when it's about to be done when you see "syncing work tree" in the t
 
 If repo exits due to fetch errors the run the repo sync cmd again as -f will fix broken source
 
-## Modifying the Device Tree so that it can be picked up by build system
+## Time to build! Well, Almost :P
+First we need to Modify the Device Tree so that it can be picked up by build system.
 
+# wip, time for sleep..
 Not done yet, I'm going to sleep lol
 
