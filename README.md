@@ -72,17 +72,26 @@ repo sync  -f --force-sync --no-clone-bundle
 ```
 If repo-sync exits due to fetch errors at some point then run the mentioned repo sync cmd again as -f will fix broken source
 
-### Modifying the device tree to build with you ROMS source
-Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacture/codename folder. They'll be 2 files that you'll need to edit here.
+### Modifying the device tree to build with your ROMS source
+Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacture/codename folder. They'll be 2 files that you'll need to edit here. Again, I'll be using havoc as an example:
 
-1. Rename lineage.dependencies to havoc.dependencies
+1. Rename lineage.dependencies to havoc.dependencies and linage.mk to havoc.mk
 
-2. Open lineage.mk and replace all instances of "lineage" with "havoc" as shown in the examples below
+2. Open havoc.mk and replace all instances of "lineage" with "havoc" as shown in the examples below
 
-###### Example
-"PRODUCT_NAME := lineage_angler" get's changed to "PRODUCT_NAME := havoc_angler"
+###### Example for 1st change in lineage.mk
+"PRODUCT_NAME := lineage_angler" 
 
-"$(call inherit-product, vendor/lineage/config/common_full_phone.mk)" gets changed to "$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
+get's changed to 
+
+"PRODUCT_NAME := havoc_angler"
+
+###### Example for 2nd change in lineage.mk
+"$(call inherit-product, vendor/lineage/config/common_full_phone.mk)" 
+
+gets changed to
+
+"$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
 
 
 
