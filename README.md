@@ -30,9 +30,9 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-### Now It's time to choose a ROM!
-
-To do this we must go to the Github of our ROM Source and locate the platform manifest. You should find a command simillar to this:
+### Now It's time to choose a ROM and Grab it's Platform Manifest!
+###### Note: I will be using Havoc-OS as an example
+To do this we must go to the Github of our ROM Source and locate the platform manifest or android manifest. You should find a command simillar to this:
 ```
 repo init -u https://github.com/Havoc-OS/android_manifest.git -b oreo
 ```
@@ -53,20 +53,16 @@ There are three key things that you'll need for this proccess:
 We can gather these by using local_manifests. Assuming you're still in the ~/havoc folder you'll want to:
 ```
 cd -e
-nano local_manifest.xml
+gedit local_manifest.xml
 ```
 
-Copy this example into the terminal window:
+Copy this example into gedit
 ```
 <manifest><project path="device/huawei/angler" name="AnierinBliss/android_device_huawei_angler" remote="github" revision="lineage-15.1"/><project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1"/><project path="kernel/huawei/angler" name="LineageOS/android_kernel_huawei_angler" remote="github" revision="lineage-15.1"/></manifest>
 ```
-Then, using your keyboard, hit ctrl-x and then the letter "Y" so that it saves. 
 
-Run this so that you can edit the manifest with ease:
-```
-gedit local_manifest.xml
-```
-Now use Lineage-OS & TheMuppets Github as refrence to edit the files to represent your device codname, kernel name, and vendor name. After you're done doing so, crate a local_manifests folder in Havoc-OS/.repo and move local_manifest.xml into it.
+Now use Lineage-OS & TheMuppets Github as refrence to edit the local_manifest to represent your device codname, kernel name, and vendor name. After you're done doing so, save it. Create a local_manifests folder in Havoc-OS/.repo and move local_manifest.xml there.
+
 ### Syncing the Source!
 Note: this will take a while and consume a lot of bandwith
 ```
