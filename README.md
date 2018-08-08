@@ -103,7 +103,8 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G
 You may also want to set jacks max-services from 4 to 1 or 2
 
 ### Time To Build!
-###### Note: The usage can be slightly different for other ROMs check with your ROMs platform_manifest on Github. To use a seperate output directory use this cmd
+###### Note: The usage can be slightly different for other ROMs check with your ROMs platform_manifest on Github. 
+To use a seperate output directory use this cmd
 ```
 export OUT_DIR_COMMON_BASE=/media/username/drivename
 ```
@@ -114,10 +115,4 @@ Replace angler with your devices codename:
 . build/envsetup.sh
 brunch angler
 ```
-
-To use a seperate output directory use this cmd beffore running 
-```
-export OUT_DIR_COMMON_BASE=<path-to-your-out-directory>
-```
-
 
