@@ -45,17 +45,16 @@ Now you can go ahead and initialize repo.
 
 ### Device Specific Code
 
-There are three key things that you'll need for this proccess:
-1. Vendor
-2. Kernel
-3. Device Tree
+There are three things that you'll need for this proccess:
+1. device tree
+2. kernel source
+3. Vendor source
 
 We can gather these by using local_manifests. Assuming you're still in the ~/havoc folder you'll want to:
 ```
 cd -e
 gedit local_manifest.xml
 ```
-
 Copy this example into gedit
 ```
 <manifest><project path="device/huawei/angler" name="AnierinBliss/android_device_huawei_angler" remote="github" revision="lineage-15.1"/><project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1"/><project path="kernel/huawei/angler" name="LineageOS/android_kernel_huawei_angler" remote="github" revision="lineage-15.1"/></manifest>
@@ -71,7 +70,7 @@ repo sync  -f --force-sync --no-clone-bundle
 If repo-sync exits due to fetch errors at some point than run the mentioned repo sync cmd again as -f will fix broken source
 
 ### Modifying the device tree to build with your ROMS source
-Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacture/codename folder. They'll be 2 files that you'll need to edit here. I'll be using havoc as my ROM and angler as my device:
+Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacturer/codename folder. They'll be 2 files that you'll need to edit here. I'll be using havoc as my ROM and angler as my device:
 
 1. Rename lineage.dependencies (if present) to havoc.dependencies and linage.mk to havoc.mk
 
