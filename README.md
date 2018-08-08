@@ -92,14 +92,27 @@ gets changed to
 
 ### Optional fixes for low-end pc's
 
-Before I go any further, I'd like to introduce some common fixes for build/core on low end hardware. Just downloaded the droidoc.mk and deffinitions.mk from this git repo and replace the ones in your local havoc/build/core with them.
+Before I go any further, I'd like to introduce some common fixes for build/core on low end hardware. Just downloaded the droidoc.mk and deffinitions.mk from this git rep and replace the ones in your local havoc/build/core with them.
 
 Another common error is the jack-server running out of memory, causing constant hangs and even non responsivness. An easy fix for this is setting jack-server to allocate a sufficent ammount of RAM.
 ```
+cd ~/havoc
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G"
 ```
 ###### Note: Do not increase the #3 if using a 4gb ram pc:
 
-You may also want to set jacks max services from 4 to 1 or 2
+You may also want to set jacks max-services from 4 to 1 or 2
+
+### Time To Build!
+###### Note: The usage can be slightly different for other ROMs so Check with your ROMs platform_manifest on it's Github.
+
+Replace angler with your devices codename:
+
+. build/envsetup.sh
+brunch angler
+```
+
+```
+
 
 
