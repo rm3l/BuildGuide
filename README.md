@@ -92,11 +92,5 @@ get's changed to
 gets changed to
 
 "$(call inherit-product, vendor/havoc/config/common_full_phone.mk)"
- 
-
-### Starting the Build
-cd ~/havoc
-. build/envsetup.sh
-brunch device-codename
 
 
