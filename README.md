@@ -108,10 +108,9 @@ You may also want to set jacks max-services from 4 to 1 or 2
 
 Replace angler with your devices codename:
 
+```
 . build/envsetup.sh
 brunch angler
-```
-
 ```
 
 
