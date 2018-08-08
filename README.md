@@ -41,7 +41,7 @@ Before running the repo init command, you'll want to make a directory where the 
 mkdir -p ~/havoc
 cd ~/havoc
 ```
-Now you can go ahead and initialize repo.
+Now you can initialize repo.
 
 ### Device Specific Code
 
