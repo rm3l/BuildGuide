@@ -1,6 +1,6 @@
 #  Android 8.1 Build Guide for Ubuntu 16.04 (Lubuntu 16.04 tested as well)
 
-This guide will walk you through the steps to set up the android 8.1 build enviorment on ubuntu 16.04.You will also learn how to use local_manifests to sync device specific code, and modify your device tree to be compatible with your ROMs source :)
+This guide will walk you through the steps to set up the android 8.1 build environment on ubuntu 16.04.You will also learn how to use local_manifests to sync device specific code, and modify your device tree to be compatible with your ROMs source :)
 ###### some optional additions for building on low end hardware will be present as well: E.G 4gb ram & intel i5-4400
 
 ### Installing prerequisites
