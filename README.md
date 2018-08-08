@@ -5,13 +5,13 @@ This guide will walk you through the steps to set up the android 8.1 build envio
 
 ### Installing prerequisites
 
-Install openjdk-8-jdk
+Install Open Java Development Kit 8
 ```
 sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 ```
 
-Install required packages for Ubuntu 14.04 and up
+other required packages for Ubuntu 14.04 and up
 ```
  sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
 ```
