@@ -31,12 +31,12 @@ git config --global user.email "you@example.com"
 ```
 
 ### Now It's time to choose a ROM and Grab it's Platform Manifest!
-###### Note: I will be using Havoc-OS as an example
+###### Note: I will be using Havoc-OS as an example for the rest of this guide
 To do this we must go to the Github of our ROM Source and locate the platform manifest or android manifest. You should find a command simillar to this:
 ```
 repo init -u https://github.com/Havoc-OS/android_manifest.git -b oreo
 ```
-Before running the repo init command, you'll want to make a directory for the Source that will be downloaded. I will be using Havoc-OS as an example:
+Before running the repo init command, you'll want to make a directory where the source will be stored. I will be using Havoc-OS as an example.
 ```
 mkdir -p ~/havoc
 cd ~/havoc
