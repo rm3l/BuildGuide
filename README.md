@@ -1,6 +1,6 @@
 # Android Build Guide for Ubuntu 16.04
 
-This guide will walk you through the steps of getting an android 8.1 build enviorment up and running on ubuntu 16.04.
+This guide will walk you through the steps to set up an android 8.1 build enviorment on ubuntu 16.04 as well as the build proccess for any Lineage-OS supported Device.
 ###### some optional additions for building on low end hardware will be present as well: E.G 4gb ram & intel i5-4400
 
 ### Installing prerequisites
