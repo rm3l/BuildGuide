@@ -96,7 +96,6 @@ Before I go any further, I'd like to introduce some common fixes for build/core 
 
 Another common error is the jack-server running out of memory, causing constant hangs and even non responsivness. An easy fix for this is setting jack-server to allocate a sufficent ammount of RAM.
 ```
-cd ~/havoc
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G"
 ```
 ###### Note: Do not increase the #3 if using a 4gb ram pc:
