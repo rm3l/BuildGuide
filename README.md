@@ -75,7 +75,7 @@ You'll know when it's about to be done when you see "syncing work tree" in the t
 
 If repo exits due to fetch errors the run the repo sync cmd again as -f will fix broken source
 
-## Modifying the Device tree to be picked up by the Rom system
+## Modifying the Device Tree so that it can be picked up by build system
 
 Not done yet, I'm going to sleep lol
 
