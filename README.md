@@ -30,7 +30,7 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-## Now It's time to choose a ROM!
+### Now It's time to choose a ROM!
 
 To do this we must go to the Github of our ROM Source and locate the platform manifest. You should find a command simillar to this:
 ```
@@ -72,7 +72,7 @@ repo sync  -f --force-sync --no-clone-bundle
 ```
 If repo-sync exits due to fetch errors at some point then run the mentioned repo sync cmd again as -f will fix broken source
 
-## Modifying the device tree to build with you ROMS source
+### Modifying the device tree to build with you ROMS source
 Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacture/codename folder. There will be 2 files that you need edit here.
 
 1. Rename lineage.dependencies to havoc.dependencies
