@@ -60,18 +60,18 @@ Copy the example manifest from here into gedit: https://github.com/AnierinBliss/
 Now use Lineage-OS & TheMuppets Github as a refrence to edit local_manifest.xml to represent your device codename, kernel name, and vendor name.This is usually pretty easy to do. Just search your device codename on Lineage-OS github and you'll find device and kernel. For vendor, search TheMuppets Github for your devices manufacturer. After you're done doing so, save it in Havoc-OS/.repo/local_manifests folder. If that folder isn't there, create it.
 
 ### Syncing the Source!
-Note: this will take a while and consume a lot of bandwith
+Note: this will take a while and consume a lot of bandwith.
 ```
 repo sync  -f --force-sync --no-clone-bundle
 ```
-If repo-sync exits due to fetch errors at some point than run the mentioned repo sync cmd again as -f will fix broken source
+If repo-sync exits due to fetch errors than run the mentioned repo sync cmd again as -f will fix the broken source.
 
 ### Modifying the device tree to build with your ROMS source
 Open up your file browser and navigate to the device folder at the root of your ROMS source. Continue by entering into your device's manufacturer/codename folder. They'll be 2 files that you'll need to edit here. I'll be using havoc as my ROM and angler as my device:
 
 1. Rename lineage.dependencies (if present) to havoc.dependencies and linage.mk to havoc.mk
 
-2. Open havoc.mk and replace all instances of "lineage" with "havoc" as shown in the examples below
+2. Open havoc.mk and replace all instances of "lineage" with "havoc" as shown in the examples below:
 
 ###### Example for 1st change in lineage.mk
 "PRODUCT_NAME := lineage_angler" 
