@@ -104,7 +104,7 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G
 You may also want to set jacks max-services from 4 to 1 or 2
 
 ### Time To Build!
-######Make sure you're in ~/havoc
+###### Make sure you're in ~/havoc
 
 To use a seperate output directory:
 ```
