@@ -55,7 +55,7 @@ We can gather these by using local_manifests. Assuming you're still in the ~/hav
 cd -e
 gedit local_manifest.xml
 ```
-Copy the example manifest from here into gedit: https://github.com/AnierinBliss/BuildGuide/blob/master/local_manifest.xml
+Copy the contents of this  manifest into gedit: https://github.com/AnierinBliss/BuildGuide/blob/master/local_manifest.xml
 
 Now use Lineage-OS & TheMuppets Github as a refrence to edit local_manifest.xml to represent your device codename, kernel name, and vendor name.This is usually pretty easy to do. Just search your device codename on Lineage-OS github and you'll find device and kernel. For vendor, search TheMuppets Github for your devices manufacturer. After you're done doing so, save it in Havoc-OS/.repo/local_manifests folder. If that folder isn't there, create it.
 
