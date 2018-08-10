@@ -103,8 +103,11 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx3G
 
 You may also want to set jacks max-services from 4 to 1 or 2
 
-### Time To Build!
-###### Make sure you're in ~/havoc
+### Time To Build! 
+
+```
+cd ~/havoc
+```
 
 To use a seperate output directory:
 ```
@@ -116,5 +119,6 @@ Replace angler with your devices codename:
 . build/envsetup.sh
 brunch angler
 ```
+###### Note: (Make sure you're in ~/havoc)
 ###### Note: The usage can be slightly different for every ROM. Check with your ROMs platform_manifest on Github.
 
