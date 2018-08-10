@@ -114,11 +114,11 @@ To use a seperate output directory:
 export OUT_DIR_COMMON_BASE=/media/username/drivename
 ```
 
-Replace angler with your devices codename:
+To Build:
 ```
 . build/envsetup.sh
 brunch angler
 ```
-###### Note: (Make sure you're in ~/havoc)
-###### Note: The usage can be slightly different for every ROM. Check with your ROMs platform_manifest on Github.
+###### Note: "angler" is the device being used here, replace it with your device's codename
+###### Note: These commands can be slightly different for every ROM. Check with your ROMs platform_manifest on Github before executing them.
 
