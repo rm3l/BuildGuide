@@ -120,8 +120,8 @@ To Build:
 . build/envsetup.sh
 brunch angler
 ```
-###### Note: "angler" is the device being used here, replace it with your device's codename
-###### Note: These commands can be slightly different for every ROM. Check with your ROMs platform_manifest on Github before executing them.
+###### Note: Replace "angler" it with your device's codename
+###### Note #2: These commands can be slightly different for every ROM. Check with your ROMs platform_manifest on Github before executing them.
 
 # Congrats! You're now compiling for Your device!
 
