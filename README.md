@@ -122,3 +122,5 @@ brunch angler
 ###### Note: "angler" is the device being used here, replace it with your device's codename
 ###### Note: These commands can be slightly different for every ROM. Check with your ROMs platform_manifest on Github before executing them.
 
+# Congrats! You're now compiling a ROM for Your device!
+
