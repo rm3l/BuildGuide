@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/huawei/angler" name="AnierinBliss/android_device_huawei_angler" remote="github" revision="lineage-15.1" />
+  <project path="device/huawei/angler" name="LineageOS/android_device_huawei_angler" remote="github" revision="lineage-15.1" />
   <project path="vendor/huawei" name="TheMuppets/proprietary_vendor_huawei" remote="github" revision="lineage-15.1" />
   <project path="kernel/huawei/angler" name="LineageOS/android_kernel_huawei_angler" remote="github" revision="lineage-15.1" />
 </manifest>
