@@ -109,10 +109,6 @@ You may also want to set jacks max-services from 4 to 1 or 2
 
 ### Time To Build! 
 
-```
-cd ~/havoc
-```
-
 To use a seperate output directory:
 ```
 export OUT_DIR_COMMON_BASE=/media/username/drivename
