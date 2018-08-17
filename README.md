@@ -56,6 +56,7 @@ We can gather these by using local_manifests. Assuming you're still in the ~/hav
 ```
 cd .repo
 mkdir local_manifests
+cd local_manifests
 gedit local_manifest.xml
 ```
 Copy the contents of this  manifest into gedit: https://github.com/AnierinBliss/BuildGuide/blob/master/local_manifest.xml
@@ -64,6 +65,8 @@ Now use Lineage-OS & TheMuppets Github as a refrence to edit local_manifest.xml 
 ### Syncing the Source!
 ###### Note: this will take a while and consume a lot of bandwith.
 ```
+cd -e
+cd ~/havoc
 repo sync  -f --force-sync --no-clone-bundle
 ```
 If repo-sync exits due to fetch errors then run the mentioned repo sync cmd again as -f will fix broken source.
